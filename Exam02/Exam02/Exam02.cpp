@@ -81,6 +81,10 @@ public:
 			animals[animalCount] = animal;
 			animalCount++;
 		}
+		else
+		{
+			cout << "더 이상 동물원에 동물을 추가할 수 없습니다." << endl;
+		}
 	}
 
 	void performActions()
